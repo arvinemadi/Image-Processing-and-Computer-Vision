@@ -11,7 +11,6 @@ Data from Kaggle: [[https://www.kaggle.com/datasets/datamunge/sign-language-mnis
 Simple CNN using Keras Sequential API.
 
 ### Alpaca Detector
-Data from Kaggle: [[https://www.kaggle.com/datasets/datamunge/sign-language-mnist]](https://www.kaggle.com/datasets/iarunava/happy-house-dataset?resource=download)
+Data from Kaggle: https://www.kaggle.com/datasets/sid4sal/alpaca-dataset-small
 
-Transfer learning using MobileNetV2 to make a Alpaca Detector.
-Keras Functional API. Data from Kaggle: https://www.kaggle.com/datasets/sid4sal/alpaca-dataset-small
+Transfer learning using MobileNetV2 to make a Alpaca Detector. Keras Functional API. 
