@@ -14,3 +14,9 @@ Simple CNN using Keras Sequential API.
 Data from Kaggle: https://www.kaggle.com/datasets/sid4sal/alpaca-dataset-small
 
 Transfer learning using MobileNetV2 to make a Alpaca Detector. Keras Functional API. 
+
+### Unsupervised Image Processing with K-means
+K-means is applied for two applications:
+- Image classification
+- Labeling an unlabeled dataset
+The limitations and applications are discussed.
