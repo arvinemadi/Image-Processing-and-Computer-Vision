@@ -20,3 +20,7 @@ K-means is applied for two applications:
 - Image classification
 - Labeling an unlabeled dataset
 The limitations and applications are discussed.
+
+### image classification using pytorch
+Example of image classification using pytorch. The notebook also uses sklearn to visualize the metric of ROC curve and confusion matrix.
+
