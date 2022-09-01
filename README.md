@@ -27,3 +27,7 @@ Example of image classification using pytorch. The notebook also uses sklearn to
 ### Transfer learning using ResNet18 for CIFAR10 dataset:
 [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset is a dataset of 60,000 images in 10 classes.
 This notebook makes an image classifier using transfer learning on [ResNet18](https://www.sciencedirect.com/topics/computer-science/residual-network#:~:text=ResNet18%20is%20a%2072%2Dlayer,a%20degradation%20of%20the%20output.) pre-trained weights that are available for download from [torchvision.models](https://pytorch.org/vision/stable/models.html)
+
+## Image classification for unbalanced datasets
+I am working on a medical imaging projects that has highly unbalanced dataset. To test some first ideas and creating a pipeline for evaluating the results I am doing this exercise to transform MNIST data into a binary classification problem by choosing only one of the digits.
+As the first idea, Linear SVM and Random Forrest on tried and compared on this unbalanced dataset.
