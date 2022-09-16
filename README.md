@@ -31,3 +31,14 @@ This notebook makes an image classifier using transfer learning on [ResNet18](ht
 ## Image classification for unbalanced datasets
 I am working on a medical imaging projects that has highly unbalanced dataset. To test some first ideas and creating a pipeline for evaluating the results I am doing this exercise to transform MNIST data into a binary classification problem by choosing only one of the digits.
 As the first idea, Linear SVM and Random Forrest on tried and compared on this unbalanced dataset.
+
+## Dog breed detector
+This is an end-to-end example of doing deep learning image classification on AWS.
+
+A pre-trained DNN model (ResNet18) is loaded. Hyper-parameter tuning is done. After Next, the model is trained using the best hyper-parameters. For the training job, debugger and profilers are created to monitor the performance. During the model development these been used to debug and fix the issues.
+
+After the model with satisfactory performance is trained, the model is deployed to an endpoint. As shown in previous examples, model monitors like DataCapture can be created to monitor the model during the inference, but those were skipped here.
+
+The deployed model is tested by sending some dog images that were not seen during the training and output is visualized.
+
+The notebook shows the steps for this script mode training, and the script codes are in the folder "Dog Breed Detector"
