@@ -42,3 +42,5 @@ After the model with satisfactory performance is trained, the model is deployed 
 The deployed model is tested by sending some dog images that were not seen during the training and output is visualized.
 
 The notebook shows the steps for this script mode training, and the script codes are in the folder "Dog Breed Detector"
+
+Reference from AWS on CIFAR10 dataset: [Extend a pre-built container](https://docs.aws.amazon.com/sagemaker/latest/dg/prebuilt-containers-extend.html)
