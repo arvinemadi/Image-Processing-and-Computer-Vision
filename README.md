@@ -35,7 +35,7 @@ As the first idea, Linear SVM and Random Forrest on tried and compared on this u
 ## Dog breed detector
 This is an end-to-end example of doing deep learning image classification on AWS.
 
-A pre-trained DNN model (ResNet18) is loaded. Hyper-parameter tuning is done. After Next, the model is trained using the best hyper-parameters. For the training job, debugger and profilers are created to monitor the performance. During the model development these been used to debug and fix the issues.
+A pre-trained DNN model (ResNet18) is loaded. Hyper-parameter tuning is done. Next, the model is trained using the best hyper-parameters. For the training job, debugger and profilers are created to monitor the performance. During the model development these been used to debug and fix the issues.
 
 After the model with satisfactory performance is trained, the model is deployed to an endpoint. As shown in previous examples, model monitors like DataCapture can be created to monitor the model during the inference, but those were skipped here.
 
