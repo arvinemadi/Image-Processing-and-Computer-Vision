@@ -44,3 +44,15 @@ The deployed model is tested by sending some dog images that were not seen durin
 The notebook shows the steps for this script mode training, and the script codes are in the folder "Dog Breed Detector"
 
 Reference from AWS on CIFAR10 dataset: [Extend a pre-built container](https://docs.aws.amazon.com/sagemaker/latest/dg/prebuilt-containers-extend.html)
+
+## Non Deep Learning Traditional Image Processing Techniques
+Simple examples of using python openCV for:
+- Color thresholding
+- Filters
+- Edge detectors (Sobel x and y, Canny)
+- Fourier Transform
+- HOUGH line detection (HOUGH space)
+- Corner detectors
+- Key points and descriptors
+
+List may get updated
