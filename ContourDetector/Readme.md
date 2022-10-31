@@ -7,3 +7,19 @@ There are many techniques for removal of salt and pepper noise such as median fi
 Image after applying median blur:
 
 <img src="media/denoised_image.PNG" width="450" height="320" />
+
+In the next step Canny edge detection algorithm is applied to detect all the edges. This step is followed by a dilation step.
+Dilation step helps to force the edges to cover the entire objects that is needed for the next step.
+
+Image of detected and dilated edges:
+
+<img src="media/detected_edges.PNG" width="450" height="320" />
+
+Next, we can find and rank the contours in the image. Using openCV, we can use a tree-based algorithm to find the hierachy of the contours. This will return all the contours while also perserving the child-parent relationship between the contours. This helps for example when we want to enclose an entire object by its boundry and we want clear separation between the outline boundry and boundries that belong to the inside of the image.
+
+After finding the contours and their hierachy, since our hierachy is tree-based, we can do a DFS on the contours and color them based on their level of traversal. 
+
+Image of colored contours of the image:
+
+<img src="media/contours_image.PNG" width="450" height="320" />
+
