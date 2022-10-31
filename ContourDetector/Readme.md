@@ -23,3 +23,6 @@ Image of colored contours of the image:
 
 <img src="media/contours_image.PNG" width="450" height="320" />
 
+We can note that the entire outline of the the shuttle body is illustrated by a different color than other contours for example for the wings.
+
+Changing the parameters for example for canny threshold, and dilation level can result in other interesting results.
