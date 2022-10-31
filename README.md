@@ -56,3 +56,6 @@ Simple examples of using python openCV for:
 - Key points and descriptors
 
 List may get updated
+
+# Contour Detection (Image Segmentation - non Deep Learning)
+Using C++ openCV to detect and illustrate contours in a noisy image
