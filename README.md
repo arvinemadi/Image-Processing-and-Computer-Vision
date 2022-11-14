@@ -59,3 +59,10 @@ List may get updated
 
 # Contour Detection (Image Segmentation - non Deep Learning)
 Using C++ openCV to detect and illustrate contours in a noisy image
+
+# Facial KeyPoint Detector
+Usual way of detecting KeyPoints are using Gradient based methods such as ORG, SIFT, FAST, etc that don't use CNN or deep learning.
+There are some research on train CNN networks for detecting key points. The issue is that the model get biased and learn the general shape of a face and thus may not be completely overlapping with the face, but still give low loss.
+CNN architecture based on: [Naimish paper](https://arxiv.org/pdf/1710.00977.pdf)
+Dataset: [Kaggle Dataset] (https://www.kaggle.com/c/facial-keypoints-detection/data)
+Part of a Udacity Project Course. [Github reference](https://github.com/udacity/P1_Facial_Keypoints)
