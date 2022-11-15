@@ -69,3 +69,4 @@ CNN architecture based on: [Naimish paper](https://arxiv.org/pdf/1710.00977.pdf)
 Dataset: [Kaggle Dataset] (https://www.kaggle.com/c/facial-keypoints-detection/data)
 
 Part of a Udacity Project Course. [Github reference](https://github.com/udacity/P1_Facial_Keypoints)
+A pre-trained production level real-time model: https://github.com/davisking/dlib
